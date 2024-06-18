@@ -134,7 +134,7 @@ namespace Problems
                 {'1','1','1','1','0','0','1','0' }
             };
 
-            var result = ShiftArray(arr, 2);
+            var result = ShiftArray(arr, 1);
             for (int i = 0; i < result.GetLength(0); i++)
             {
                 for(int j = 0; j < result.GetLength(1); j++)
@@ -148,6 +148,8 @@ namespace Problems
 
         public char[, ] ShiftArray(char[,] input, int shiftAmount)
         {
+
+            shiftAmount %= input.GetLength(1);
 
             for(int i=0;i<input.GetLength(0); i++)
             {
