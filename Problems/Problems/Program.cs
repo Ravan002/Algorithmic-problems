@@ -12,7 +12,7 @@ namespace Problems
         {
             Description_Solution ds= new Description_Solution();
 
-            ds.AdjacentMatrix();
+            ds.PrintShiftedArray();
         }
     }
 }

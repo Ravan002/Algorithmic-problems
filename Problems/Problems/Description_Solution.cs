@@ -8,8 +8,8 @@ namespace Problems
 {
     public class Description_Solution
     {
-
-        // Problem input
+        // Problem  1
+        // input
         //{9, 4}
         //{6, 3}
         //{5, 8}
@@ -22,8 +22,6 @@ namespace Problems
         // 3 0 1 1 0 0 1
         // 5 0 0 1 0 0 1
         // 8 0 0 0 1 1 0
-
-
         public void AdjacentMatrix()
         {
             int[,] grid =
@@ -86,6 +84,87 @@ namespace Problems
                 }
             }
         }
+
+
+
+
+        // Probblem 2
+
+        // Shift Array
+        // input 
+        //    var arr = new char[,]
+        //    {
+        //      { '1','0','1','0','1','0','0','0' },
+        //      { '1','1','0','0','1','0','1','0' },
+        //      { '1','1','0','0','0','1','1','0' },
+        //      { '1','1','0','1','0','0','0','0' },
+        //      { '1','0','0','0','0','1','0','0' },
+        //      { '1','1','1','0','1','0','1','0' },
+        //      { '1','1','0','0','1','0','0','0' },
+        //      { '1','1','0','0','1','0','0','0' },
+        //      { '1','1','1','1','0','0','1','0' }
+        //    };
+
+
+        // output - shift 1 
+        // 01010100
+        // 01100101
+        // 01100011
+        // 01101000
+        // 01000010
+        // 01110101
+        // 01100100
+        // 01100100
+        // 01111001
+
+
+
+        public void PrintShiftedArray()
+        {
+            var arr = new char[,]
+            {
+                {'1','0','1','0','1','0','0','0' },
+                {'1','1','0','0','1','0','1','0' },
+                {'1','1','0','0','0','1','1','0' },
+                {'1','1','0','1','0','0','0','0' },
+                {'1','0','0','0','0','1','0','0' },
+                {'1','1','1','0','1','0','1','0' },
+                {'1','1','0','0','1','0','0','0' },
+                {'1','1','0','0','1','0','0','0' },
+                {'1','1','1','1','0','0','1','0' }
+            };
+
+            var result = ShiftArray(arr, 2);
+            for (int i = 0; i < result.GetLength(0); i++)
+            {
+                for(int j = 0; j < result.GetLength(1); j++)
+                {
+                    Console.Write(result[i, j] + " ");
+                }
+                Console.WriteLine();
+            }
+
+        }
+
+        public char[, ] ShiftArray(char[,] input, int shiftAmount)
+        {
+
+            for(int i=0;i<input.GetLength(0); i++)
+            {
+                for(int k = 0; k < shiftAmount; k++)
+                {
+                    char lastChar = input[i, input.GetUpperBound(1)];
+                    for (int j = input.GetLength(1) - 2; j >= 0; j--)
+                    {
+                        input[i, j + 1] = input[i, j];
+                    }
+                    input[i, input.GetLowerBound(1)] = lastChar;
+                }
+            }
+
+            return input;
+        }
     }
+
 
 }

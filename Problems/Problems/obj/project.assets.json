@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sanan\\Desktop\\Ravan\\Problems\\Problems\\Problems.csproj",
+      "projectUniqueName": "C:\\Users\\sanan\\Desktop\\Ravan\\github\\Algorithmic-problems\\Problems\\Problems\\Problems.csproj",
       "projectName": "Problems",
-      "projectPath": "C:\\Users\\sanan\\Desktop\\Ravan\\Problems\\Problems\\Problems.csproj",
+      "projectPath": "C:\\Users\\sanan\\Desktop\\Ravan\\github\\Algorithmic-problems\\Problems\\Problems\\Problems.csproj",
       "packagesPath": "C:\\Users\\sanan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sanan\\Desktop\\Ravan\\Problems\\Problems\\obj\\",
+      "outputPath": "C:\\Users\\sanan\\Desktop\\Ravan\\github\\Algorithmic-problems\\Problems\\Problems\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sanan\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\sanan\\Desktop\\Ravan\\Problems\\",
+  "WorkspaceRootPath": "C:\\Users\\sanan\\Desktop\\Ravan\\github\\Algorithmic-problems\\Problems\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C3410B01-FCF1-41DB-81D1-5CEA2B67537B}|Problems\\Problems.csproj|c:\\users\\sanan\\desktop\\ravan\\problems\\problems\\description_solution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C3410B01-FCF1-41DB-81D1-5CEA2B67537B}|Problems\\Problems.csproj|c:\\users\\sanan\\desktop\\ravan\\github\\algorithmic-problems\\problems\\problems\\description_solution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3410B01-FCF1-41DB-81D1-5CEA2B67537B}|Problems\\Problems.csproj|solutionrelative:problems\\description_solution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3410B01-FCF1-41DB-81D1-5CEA2B67537B}|Problems\\Problems.csproj|c:\\users\\sanan\\desktop\\ravan\\problems\\problems\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C3410B01-FCF1-41DB-81D1-5CEA2B67537B}|Problems\\Problems.csproj|c:\\users\\sanan\\desktop\\ravan\\github\\algorithmic-problems\\problems\\problems\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3410B01-FCF1-41DB-81D1-5CEA2B67537B}|Problems\\Problems.csproj|solutionrelative:problems\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Description_Solution.cs",
-              "DocumentMoniker": "C:\\Users\\sanan\\Desktop\\Ravan\\Problems\\Problems\\Description_Solution.cs",
+              "DocumentMoniker": "C:\\Users\\sanan\\Desktop\\Ravan\\github\\Algorithmic-problems\\Problems\\Problems\\Description_Solution.cs",
               "RelativeDocumentMoniker": "Problems\\Description_Solution.cs",
-              "ToolTip": "C:\\Users\\sanan\\Desktop\\Ravan\\Problems\\Problems\\Description_Solution.cs",
-              "RelativeToolTip": "Problems\\Description_Solution.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAQwEEAAAAAAAAA",
+              "ToolTip": "C:\\Users\\sanan\\Desktop\\Ravan\\github\\Algorithmic-problems\\Problems\\Problems\\Description_Solution.cs*",
+              "RelativeToolTip": "Problems\\Description_Solution.cs*",
+              "ViewState": "AQIAAHsAAAAAAAAAAAASwIgAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-18T08:52:49.745Z",
               "EditorCaption": ""
@@ -37,11 +37,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\sanan\\Desktop\\Ravan\\Problems\\Problems\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\sanan\\Desktop\\Ravan\\github\\Algorithmic-problems\\Problems\\Problems\\Program.cs",
               "RelativeDocumentMoniker": "Problems\\Program.cs",
-              "ToolTip": "C:\\Users\\sanan\\Desktop\\Ravan\\Problems\\Problems\\Program.cs",
+              "ToolTip": "C:\\Users\\sanan\\Desktop\\Ravan\\github\\Algorithmic-problems\\Problems\\Problems\\Program.cs",
               "RelativeToolTip": "Problems\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-18T08:50:15.641Z",
               "EditorCaption": ""
