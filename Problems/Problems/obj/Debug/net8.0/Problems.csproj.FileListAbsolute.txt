@@ -1,0 +1,14 @@
+C:\Users\sanan\Desktop\Ravan\Problems\Problems\bin\Debug\net8.0\Problems.exe
+C:\Users\sanan\Desktop\Ravan\Problems\Problems\bin\Debug\net8.0\Problems.deps.json
+C:\Users\sanan\Desktop\Ravan\Problems\Problems\bin\Debug\net8.0\Problems.runtimeconfig.json
+C:\Users\sanan\Desktop\Ravan\Problems\Problems\bin\Debug\net8.0\Problems.dll
+C:\Users\sanan\Desktop\Ravan\Problems\Problems\bin\Debug\net8.0\Problems.pdb
+C:\Users\sanan\Desktop\Ravan\Problems\Problems\obj\Debug\net8.0\Problems.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sanan\Desktop\Ravan\Problems\Problems\obj\Debug\net8.0\Problems.AssemblyInfoInputs.cache
+C:\Users\sanan\Desktop\Ravan\Problems\Problems\obj\Debug\net8.0\Problems.AssemblyInfo.cs
+C:\Users\sanan\Desktop\Ravan\Problems\Problems\obj\Debug\net8.0\Problems.csproj.CoreCompileInputs.cache
+C:\Users\sanan\Desktop\Ravan\Problems\Problems\obj\Debug\net8.0\Problems.dll
+C:\Users\sanan\Desktop\Ravan\Problems\Problems\obj\Debug\net8.0\refint\Problems.dll
+C:\Users\sanan\Desktop\Ravan\Problems\Problems\obj\Debug\net8.0\Problems.pdb
+C:\Users\sanan\Desktop\Ravan\Problems\Problems\obj\Debug\net8.0\Problems.genruntimeconfig.cache
+C:\Users\sanan\Desktop\Ravan\Problems\Problems\obj\Debug\net8.0\ref\Problems.dll
