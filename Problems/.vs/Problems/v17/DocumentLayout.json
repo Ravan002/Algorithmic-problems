@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\sanan\\Desktop\\Ravan\\github\\Algorithmic-problems\\Problems\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C3410B01-FCF1-41DB-81D1-5CEA2B67537B}|Problems\\Problems.csproj|c:\\users\\sanan\\desktop\\ravan\\github\\algorithmic-problems\\problems\\problems\\youtube_mock_interview_problems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3410B01-FCF1-41DB-81D1-5CEA2B67537B}|Problems\\Problems.csproj|solutionrelative:problems\\youtube_mock_interview_problems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C3410B01-FCF1-41DB-81D1-5CEA2B67537B}|Problems\\Problems.csproj|c:\\users\\sanan\\desktop\\ravan\\github\\algorithmic-problems\\problems\\problems\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3410B01-FCF1-41DB-81D1-5CEA2B67537B}|Problems\\Problems.csproj|solutionrelative:problems\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,30 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Youtube_Mock_Interview_Problems.cs",
+              "DocumentMoniker": "C:\\Users\\sanan\\Desktop\\Ravan\\github\\Algorithmic-problems\\Problems\\Problems\\Youtube_Mock_Interview_Problems.cs",
+              "RelativeDocumentMoniker": "Problems\\Youtube_Mock_Interview_Problems.cs",
+              "ToolTip": "C:\\Users\\sanan\\Desktop\\Ravan\\github\\Algorithmic-problems\\Problems\\Problems\\Youtube_Mock_Interview_Problems.cs",
+              "RelativeToolTip": "Problems\\Youtube_Mock_Interview_Problems.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAnwKQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T07:19:56.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Project_Euler.cs",
               "DocumentMoniker": "C:\\Users\\sanan\\Desktop\\Ravan\\github\\Algorithmic-problems\\Problems\\Problems\\Project_Euler.cs",
               "RelativeDocumentMoniker": "Problems\\Project_Euler.cs",
               "ToolTip": "C:\\Users\\sanan\\Desktop\\Ravan\\github\\Algorithmic-problems\\Problems\\Problems\\Project_Euler.cs",
               "RelativeToolTip": "Problems\\Project_Euler.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAwwC0AAAAhAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAswDAAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-19T04:11:36.412Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\sanan\\Desktop\\Ravan\\github\\Algorithmic-problems\\Problems\\Problems\\Program.cs",
               "RelativeDocumentMoniker": "Problems\\Program.cs",
               "ToolTip": "C:\\Users\\sanan\\Desktop\\Ravan\\github\\Algorithmic-problems\\Problems\\Problems\\Program.cs",
               "RelativeToolTip": "Problems\\Program.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBAAAAArAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-18T08:50:15.641Z",
               "EditorCaption": ""

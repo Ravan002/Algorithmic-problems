@@ -56,7 +56,6 @@ namespace Problems
             PrintMatrix(column_rowName, matrix);
             
         }
-
         public void SetValues(int[,] matrix, int[,] grid, int i, int j, int currentRow)
         {
             if (i < 0 || i > grid.GetLength(0)-1) return;
@@ -66,7 +65,6 @@ namespace Problems
             matrix[currentRow, i * grid.GetLength(1) + j] = 1;
 
         }
-
         public void PrintMatrix(int[] column_rowName, int[, ] matrix)
         {
             Console.Write("# ");
@@ -117,8 +115,6 @@ namespace Problems
         // 01100100
         // 01111001
 
-
-
         public void PrintShiftedArray()
         {
             var arr = new char[,]
@@ -145,7 +141,6 @@ namespace Problems
             }
 
         }
-
         public char[, ] ShiftArray(char[,] input, int shiftAmount)
         {
 
@@ -166,7 +161,110 @@ namespace Problems
 
             return input;
         }
-    }
 
+
+
+        // Spiral n,m matrix
+        public void Spiral(int n, int m)
+        {
+            int[,] matrix = new int [n,m];
+            int numberOfTurnin = n >= m ? 2 * m - 1 : 2 * n;
+
+
+            int direction = 1; // Down 1. Right 2, Up 3, Left 4
+            int currentNumber = 1;
+            m--;
+            n--;
+            for (int i=0;i<numberOfTurnin; i++)
+            {
+                switch (direction)
+                {
+                    case 1:
+                        currentNumber=Down_Direction(matrix,n--,m,currentNumber);
+                        direction = 2;
+                        break;
+                    case 2:
+                        currentNumber=Right_Direction(matrix,n,m--,currentNumber);
+                        direction = 3;
+                        break;
+                    case 3:
+                        currentNumber = Up_Direction(matrix, n, m, currentNumber);
+                        direction = 4;
+                        break;
+                    case 4:
+                        currentNumber=Left_Direction(matrix, n, m, currentNumber);
+                        direction = 1;
+                        break;
+                    default:
+                        break;
+                }
+            }
+
+            for(int i = 0; i < matrix.GetLength(0); i++)
+            {
+                for(int j = 0; j < matrix.GetLength(1); j++)
+                {
+                    if(matrix[i, j] < 10)
+                    {
+                        Console.Write(" 0" + matrix[i, j]);
+
+                    }
+                    else
+                    {
+                        Console.Write(" " + matrix[i, j]);
+                    }
+                    
+                }
+                Console.WriteLine();
+            }
+            
+
+            
+
+        }
+
+        public int Down_Direction(int[,] matrix, int n, int m, int currentNumber)
+        {
+            for(int i = matrix.GetLength(0) - (n+1); i <= n; i++)
+            {
+                matrix[i, matrix.GetLength(1)-(m+1)] = currentNumber++;
+            }
+
+            return currentNumber;
+        }
+        
+        public int Right_Direction(int[,] matrix, int n, int m, int currentNumber)
+        {
+            for (int i = matrix.GetLength(1) - m; i <= m; i++)
+            {
+                matrix[n+1, i] = currentNumber++;
+            }
+
+            return currentNumber;
+        }
+
+        public int Up_Direction(int[,] matrix, int n, int m, int currentNumber)
+        {
+            for (int i = n; i >= matrix.GetLength(0)-(n+2); i--)
+            {
+                matrix[i, m+1] = currentNumber++;
+            }
+
+            return currentNumber;
+        }
+
+
+
+        public int Left_Direction(int[,] matrix, int n, int m, int currentNumber)
+        {
+            for (int i = m; i >= matrix.GetLength(1)-(m+1); i--)
+            {
+                matrix[matrix.GetLength(0)-(n+2), i] = currentNumber++;
+            }
+
+            return currentNumber;
+        }
+
+    }
 
 }
