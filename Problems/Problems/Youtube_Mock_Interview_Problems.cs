@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Problems
 {
-    public class Description_Solution
+    public class Youtube_Mock_Interview_Problems
     {
         // Problem  1
         // input

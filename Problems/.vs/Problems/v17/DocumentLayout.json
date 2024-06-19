@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\sanan\\Desktop\\Ravan\\github\\Algorithmic-problems\\Problems\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C3410B01-FCF1-41DB-81D1-5CEA2B67537B}|Problems\\Problems.csproj|c:\\users\\sanan\\desktop\\ravan\\github\\algorithmic-problems\\problems\\problems\\description_solution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3410B01-FCF1-41DB-81D1-5CEA2B67537B}|Problems\\Problems.csproj|solutionrelative:problems\\description_solution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C3410B01-FCF1-41DB-81D1-5CEA2B67537B}|Problems\\Problems.csproj|c:\\users\\sanan\\desktop\\ravan\\github\\algorithmic-problems\\problems\\problems\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3410B01-FCF1-41DB-81D1-5CEA2B67537B}|Problems\\Problems.csproj|solutionrelative:problems\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3410B01-FCF1-41DB-81D1-5CEA2B67537B}|Problems\\Problems.csproj|c:\\users\\sanan\\desktop\\ravan\\github\\algorithmic-problems\\problems\\problems\\project_euler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3410B01-FCF1-41DB-81D1-5CEA2B67537B}|Problems\\Problems.csproj|solutionrelative:problems\\project_euler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Description_Solution.cs",
-              "DocumentMoniker": "C:\\Users\\sanan\\Desktop\\Ravan\\github\\Algorithmic-problems\\Problems\\Problems\\Description_Solution.cs",
-              "RelativeDocumentMoniker": "Problems\\Description_Solution.cs",
-              "ToolTip": "C:\\Users\\sanan\\Desktop\\Ravan\\github\\Algorithmic-problems\\Problems\\Problems\\Description_Solution.cs*",
-              "RelativeToolTip": "Problems\\Description_Solution.cs*",
-              "ViewState": "AQIAAHsAAAAAAAAAAAASwIgAAAAqAAAA",
+              "DocumentIndex": 1,
+              "Title": "Project_Euler.cs",
+              "DocumentMoniker": "C:\\Users\\sanan\\Desktop\\Ravan\\github\\Algorithmic-problems\\Problems\\Problems\\Project_Euler.cs",
+              "RelativeDocumentMoniker": "Problems\\Project_Euler.cs",
+              "ToolTip": "C:\\Users\\sanan\\Desktop\\Ravan\\github\\Algorithmic-problems\\Problems\\Problems\\Project_Euler.cs",
+              "RelativeToolTip": "Problems\\Project_Euler.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAwwC0AAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T08:52:49.745Z",
+              "WhenOpened": "2024-06-19T04:11:36.412Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\sanan\\Desktop\\Ravan\\github\\Algorithmic-problems\\Problems\\Problems\\Program.cs",
               "RelativeDocumentMoniker": "Problems\\Program.cs",
               "ToolTip": "C:\\Users\\sanan\\Desktop\\Ravan\\github\\Algorithmic-problems\\Problems\\Problems\\Program.cs",
               "RelativeToolTip": "Problems\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAjAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBAAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-18T08:50:15.641Z",
               "EditorCaption": ""

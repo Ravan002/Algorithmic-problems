@@ -10,9 +10,11 @@ namespace Problems
     {
         public static void Main(string[] args)
         {
-            Description_Solution ds= new Description_Solution();
+            //Youtube_Mock_Interview_Problems ds= new Youtube_Mock_Interview_Problems();
+            //ds.PrintShiftedArray();
 
-            ds.PrintShiftedArray();
+            Project_Euler project_Euler = new Project_Euler();
+            project_Euler.Problem3(999999);
         }
     }
 }
